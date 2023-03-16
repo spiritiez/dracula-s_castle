@@ -21,6 +21,9 @@ with open("/Users/Ekaterina/Desktop/mypr/castle.json") as data:
         else:
             step = random.choice(list(your_step.keys()))
             time.sleep(2)
+        if step not in your_step:
+            print('O-oh! This action is not available. Try another way')
+            step = input()
         your_step = your_step[step]
         
         if your_step == "return to enter":
