@@ -1,0 +1,69 @@
+[
+  "You are a dedicated crime journalist. For your article, you went to Transylvania (Romania). The new plot should be about an unusual phenomenon: tourists and locals disappear in the forest near a small town. You have to solve the mystery of disappearances. But none of the townspeople agreed to go into the forest with you./nThey say that hell is happening there, and there are even rumors that a vampire lives there in his castle, which, however, no one living today has seen, which is why the whole city is filled with legends about a bloodthirsty monster that lives in the forest. You can only escape from him if you answer his zagaku, but so far no one has been able to give the correct answer.\nGathering your strength, you leave the city and head straight for the forest. Despite the fact that you went out in the morning, it is already evening. Suddenly you come to a picturesque clearing and see a huge medieval castle. 'How was it possible not to find it before?' - you are surprised.",
+  {
+    "Enter the castle": 
+    [
+      "You entered, with difficulty opening a heavy iron door. It smells of mild rot and cold, there is complete silence. There was a sense of something dangerous in the air. In front of you is a huge front door, completely covered with dust: a large beautiful staircase, an extinct fireplace with two sofas and a small wooden door near the stairs, written with some incomprehensible words (I think in Latin).", 
+      {
+        "Go up the stairs":
+        [
+          "You went up to the second floor. On it is a long corridor with many doors, going into the dark distance, as if stretching endlessly, and on the walls are a little frightening porters of pale men and women. All of them are wearing chic outfits from the 17th century, but they are also very faded. The only bright thing in all these pictures is the lips of the people depicted in them. Suddenly, a man from one of the portraits appears in front of you.\n— Why did you disturb me? How did you find this place? Get out! The man grinned, long white fangs flashed.", 
+          {
+            "Go away": "You run to the stairs and quickly descend them, only to find that they have led you to a completely different place. This is some other floor. In a panic, you start to run wherever your eyes look, dim lights of candles flicker, and people from the portraits seem to smile and follow you with their eyes. After a while, you realize that you completely forgot. You frantically try to remember your path, but nothing comes out; You try to scream, but it only comes out soundlessly. The clock strikes midnight. You remain in the castle as a silent ghost forever.\nEnd of the quest.",
+            "Stay here":
+            [
+              "- What did you not clearly say? Get out!\nYou stand as if rooted to the spot and cannot move from horror.\n—Don't want to leave?- A strange man approaches you and peers into your face, peering straight into your soul with his eyes,- You are not a coward. Dinner with me?",
+              {
+                "Agree": "You have moved to a large dining room. Huge floor-to-ceiling windows are covered with curtains, the chandelier is dimmed and only a few candles shine on a long table laden with dishes. You eat, and the man only watches you and licks his lips. Once you've finished your meal, he smiles broadly:\n—Now it's my turn to have dinner!\nYou didn't escape the vampire!\nEnd of the quest.",
+                "Refuse":
+                [
+                  "- Well, then your fate is in your hands. Answer correctly to my question and you will live forever, and if not, then .. - the pupils of the man narrowed unnaturally. So, who is the best computer science teacher in the world?",
+                  {
+                    "Elena Alekseevna": "The vampire bites into your neck. You are now also a resident of this castle.\nEnd of the quest.",
+                    "Someone other than Elena Alekseevna": "You failed to escape the vampire!\nEnd of the quest."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Come in the door":
+        [
+          "You find yourself in a small but expensively cleaned room. You wanted to go out, but the door slammed shut and firmly stuck to the wall. Hours passed and you still couldn't find a way out. Expensive Romanian wine and hot meat appear on the table in front of you. You look at him in bewilderment.",
+          {
+            "Try it":
+            [
+              "You lose consciousness. You woke up in a large kitchen, bound hand and foot. Before you stands a scary-looking man with gray skin and long, inhuman fangs (it's probably a vampire!).\n— Answer my question correctly and you'll live forever, and if not, I'll eat you! Who is the best computer science teacher in the world?", 
+              {
+                    "Elena Alekseevna": "The vampire bites into your neck. You are now also a resident of this castle.\nEnd of the quest.",
+                    "Someone other than Elena Alekseevna": "You failed to escape the vampire!\nEnd of the quest."
+              }
+            ],
+            "Do not try": 
+            ["The clock strikes midnight and the door opens by itself. You can go back to the gate, or you can rush to run from this damned place. The choice is only yours!",
+            {
+              "Go away": "We congratulate you! You successfully escaped and, returning to your homeland, wrote an article that glorified you in the world of yellow press. It's a pity that no one believed that all this really happened to you.\nDespite your popularity, you soon went insane and founded a sect of vampire hunters.\nEnd of the quest.",
+              "Back to the enter of castle": "return to enter"
+            }
+            ]
+          }
+        ]
+      }
+    ],
+    "Get around it outside": 
+    [
+      "Everything is covered with snow. Not a single sound, not even the birds sing. You can only hear the crunch of ice under your new boots, bought especially for this journey... but something tells you that it may end soon.\nYou see a frozen garden that enchants with its beauty: from which a shabby plank path leads to a small door in the castle.",
+      {
+        "Go back": "return to enter",
+        "Open and enter the door":
+        [
+          "You enter a strange dark room and the door immediately opens behind you. Beyond is the old stone staircase. Resigned to your fate, you go down it and suddenly stumble. After riding for about three minutes, you, badly beaten, barely come to your senses and understand that you are in half the earth. There are many dungeons around and in each of them there are several skeletons, and some bones even just lie on the floor. In front of you stands a man with unnaturally gray skin in an old and linen robe...no doubt it's a vampire!\n— Answer my question correctly and you'll live forever, and if not, I'll eat you! Who is the best computer science teacher in the world?",
+          {
+            "Elena Alekseevna": "The vampire bites into your neck. You are now also a resident of this castle.\nEnd of the quest.", 
+            "Someone other than Elena Alekseevna": "- I have never met such a stupid mortal! Stupid people have bad blood! - The vampire will evaporate and leave you hopelessly alone. You have been walled up in the castle.\nEnd of the quest."
+          }
+        ]
+      }
+    ]
+  }
+]
