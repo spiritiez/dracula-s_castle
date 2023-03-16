@@ -3,6 +3,8 @@ import json
 with open("/Users/Ekaterina/Desktop/mypr/castle.json") as data:
     
     castle_quest_data = list(json.load(data))
+    print('Be sure to read the rules before starting the game.')
+    print()
     print(castle_quest_data[0])
     print()
     print('Your actions:\n' + '\n'.join(list(castle_quest_data[1].keys())))
