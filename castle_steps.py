@@ -2,7 +2,7 @@ import json
 import time
 import random
 
-with open("/Users/Ekaterina/Desktop/mypr/castle.json") as data:
+with open("castle.json") as data:
     
     castle_quest_data = list(json.load(data))
     print('Be sure to read the rules before starting the game.')
