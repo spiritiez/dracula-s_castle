@@ -8,6 +8,7 @@ This is a simple quest that will immerse you in the atmosphere of an ancient cas
 
 
 How to pass the quest? It works according to a very simple algorithm.
+
 Action algorithm.
 
   1. The program asks for the player's name.
