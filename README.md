@@ -3,15 +3,19 @@
 
 
 !This game is not recommended for children under 12 years old!
+
 This is a simple quest that will immerse you in the atmosphere of an ancient castle and instill in you the spirit of a brave explorer. Be careful, because at every step you are in danger! ;)
+
 
 How to pass the quest? It works according to a very simple algorithm.
 Action algorithm.
+
   1. The program asks for the player's name.
   2. You are given the opportunity to get acquainted with the demo version of the game. To activate it, enter "yes", and if you want to go by yourself, then enter "no". If the answer is “yes”, the game will be played automatically, and all actions will be chosen randomly.
   3. The introductory text will be displayed.
   4. During the passage of the quest, you will be told about the current situation, and you will be able to choose one of the actions proposed by the program. To select an action, you need to enter it from the keyboard.
   5. The game is over if after the text the program displayed "End of the quest".
+
 
 Check out the rules that will help you successfully complete the game:
 Rules.
