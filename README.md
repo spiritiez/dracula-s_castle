@@ -18,10 +18,18 @@ Action algorithm.
 
 
 Check out the rules that will help you successfully complete the game:
+
 Rules.
+
   ⁃ do not enter actions that are not in the list of available ones, otherwise the game will not understand what you want and you will have to select the action again.
-  ⁃ Carefully read the texts that the program displays.
   
+  ⁃ Carefully read the texts that the program displays.
+ 
+ 
+ 
 Features of the installation of the quest.
+
 To install and play the game on your computer, you must create an empty folder on your desktop and add the castle_steps.py and castle.json files to it. Next, open the castle_steps.py file (for this you need to have at least one programming environment that supports the Python language) and run the program enclosed in it.
+
+
 Good luck!
