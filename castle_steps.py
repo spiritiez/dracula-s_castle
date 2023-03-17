@@ -12,7 +12,7 @@ with open("castle.json") as data:
  
     print(castle_quest_data[0])
     print()
-    print(f'{name_of_player}, your possible actions are:\n' + '\n'.join(list(castle_quest_data[1].keys())))
+    print(f'{name_of_player}, your next action is:\n' + '\n'.join(list(castle_quest_data[1].keys())))
     your_step = castle_quest_data[1]
     
     for i in range(5):
@@ -40,5 +40,5 @@ with open("castle.json") as data:
             
         print(your_step[0])
         print()
-        print(f'{name_of_player}, your possible actions are:\n' + '\n'.join(list(your_step[1].keys())))
+        print(f'{name_of_player}, your next action is:\n' + '\n'.join(list(your_step[1].keys())))
         your_step = your_step[1]  
