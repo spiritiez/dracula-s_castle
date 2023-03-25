@@ -30,7 +30,7 @@ with open("castle.json") as data:
             your_step = castle_quest_data[1]
             print(castle_quest_data[0])
             print()
-            print('Your actions:\n' + '\n'.join(list(your_step[1].keys())))
+            print(f'{name_of_player}, your possible actions are:\n' + '\n'.join(list(castle_quest_data[1].keys())))
             continue
             
         if type(your_step) == str:
