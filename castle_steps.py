@@ -21,7 +21,7 @@ with open("castle.json") as data:
         else:
             step = random.choice(list(your_step.keys()))
             time.sleep(2)
-        if step not in your_step:
+        while step not in your_step:
             print('O-oh! This action is not available. Try another way')
             step = input()
         your_step = your_step[step]
@@ -31,6 +31,7 @@ with open("castle.json") as data:
             print(castle_quest_data[0])
             print()
             print(f'{name_of_player}, your possible actions are:\n' + '\n'.join(list(castle_quest_data[1].keys())))
+            flag = 'no'
             continue
             
         if type(your_step) == str:
